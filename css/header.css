@@ -1,0 +1,44 @@
+.header-section {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo-nav-container {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+.header-logo-link {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.33;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: #2E2F42;
+ }
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-logo-link span {
+    color: var(--primary-band);
+}
+
+.nav-link {
+    display: block;
+    padding: 24px 0;
+    font-weight: 500;
+    color: #2E2F42;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
+}

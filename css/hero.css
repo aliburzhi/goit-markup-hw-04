@@ -1,0 +1,30 @@
+.hero-section {
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-button {
+    color: #fff;
+    background-color: var(--primary-band);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+}
+
+.title {
+    color: #fff;
+    margin-bottom: 48px;
+    max-width: 496px;
+    text-align: center
+}

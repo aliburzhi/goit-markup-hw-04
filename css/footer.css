@@ -1,0 +1,39 @@
+.footer-section {
+    background-color: #2E2F42;
+    padding: 100px 0;
+}
+
+.footer-text {
+    color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 16px;
+    max-width: 264px;
+}
+
+.footer-logo-link {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.33;
+    color: #f4f4fd;
+}
+
+
+.footer-logo-link span {
+    color: var(--primary-band);
+}
+
+.footer-logo-link:hover,
+.footer-logo-link:active,
+.footer-logo-link:focus {
+    color: #f4f4fd;
+}
+
+.footer-logo-link:hover span,
+.footer-logo-link:active span,
+.footer-logo-link:focus span {
+    color: var(--primary-band);
+}
