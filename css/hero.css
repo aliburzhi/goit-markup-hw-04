@@ -1,11 +1,13 @@
 .hero-section {
-    background-color: #2E2F42;
+    background-color: #2e2f42;
     padding: 188px 0;
+    max-width: 1440px;
+    margin: 0 auto;
     background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
     ),
-    url('../images/hero-bg.jpg');
+    url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -28,6 +30,7 @@
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .title {
